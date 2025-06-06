@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Nobel Prizes</title>
+<link rel="stylesheet" href="contact.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+</head>
+<body>
+ <!-- header section -->
+ <header class="navbar fixed-top " id="navbar">
+   
+    <div class="navbar-brand">
+      <img src="Images & videoss/nobel prize logo.png" alt="Nobel-Prize Logo" class="logo ms-5 mt-2" id="logo">
+      <div class="row d-flex justify-content-center align-items-center "><div class="col-12 "><img src="images & videos/nobel prize logo.png" alt="nobel logo " height="70px" width="70px" id="logoforsm"  ></div></div>
+
+    </div>
+    <div class="navbar-toggler" id="navbar-toggler">
+    <button class="toggler-btn" onclick="togglefunc();"> <div class="navbar-toggler-icon"></div> </button>
+    </div>
+    <ul class="navbar-menu " id="navbar-menu">
+            <li><a href="../Final Merge Code/index.html">Home</a></li>
+            <li><a href="../Final Merge Code/about.html">About</a></li>
+            <li><a href="../Final Merge Code/history.html" >History</a></li>
+            <li id="lauretes-link"><a href="../Final Merge Code/notable-lauretes.html" >Notable-lauretes</a></li>
+            <li><a href="../Final Merge Code/gallery.html">Gallery</a></li>
+            <li><a href="../Final Merge Code/faqs.html">FAQS</a></li>
+            <li><a href="../Final Merge Code/contact.html" id="header-anchor">Contact</a></li>
+            
+
+        </ul>
+
+</header>
+
+<div class="container-fluid pe-5 p-0  position-fixed " id="nav-btns-con">
+  <div class="row  p-0 ">
+      <div class=" col-lg-12 text-end p-0     position-relative">
+       <a href="../index.html"> <button type="button" class="btn shadow     " id="nav-btns1" onclick="navigateToSection1();"></button></a>  
+
+      </div>
+  </div>
+  <div class="row  p-0">
+      <div class=" col-lg-12 text-end p-0   position-relative">
+ <a href="../about/about.html">           <button type="button" class="btn shadow"   id="nav-btns2"  onclick="navigateToSection2();"></button>
+ </a>         
+
+      </div>
+  </div>
+  <div class="row  p-0">
+      <div class=" col-lg-12 text-end p-0   position-relative">
+  <a href="../history/history.html">              <button type="button" class="btn   shadow   " id="nav-btns3"  onclick="navigateToSection3('#history-section')"></button>
+  </a>      
+
+      </div>
+  </div>
+  <div class="row  p-0">
+      <div class=" col-lg-12 text-end p-0   position-relative">
+  <a href="../notable-lauretes page/notable-lauretes.html">       <button type="button" class="btn   shadow"   id="nav-btns4" onclick="navigateToSection4();"></button></a> 
+
+      </div>
+  </div>
+  <div class="row  p-0">
+      <div class=" col-lg-12 text-end p-0   position-relative">
+<a href="../gallery/gallery.html">
+<button type="button" class="btn   shadow   " id="nav-btns5"  onclick="navigateToSection5();"></button>
+
+</a>        
+
+      </div>
+  </div>
+  <div class="row  p-0">
+      <div class=" col-lg-12 text-end p-0   position-relative">
+     <a href="../faq/faqs.html">                  <button type="button" class="btn   shadow"   id="nav-btns6" onclick="navigateToSection6();"></button>
+     </a>  
+
+      </div>
+  </div>
+  <div class="row  p-0">
+      <div class=" col-lg-12 text-end p-0   position-relative">
+<a href="../contact page/contact.html">            <button type="button" class="btn   shadow   " id="nav-btns7" onclick="navigateToSection7();"></button>
+</a>        
+
+      </div>
+  </div>
+
+
+</div>
+
+
+
+</div><!-- contact-section -->
+  <section class="contact-section" id="contact-section">
+    <div class="container">
+      <div class="row">
+   
+        <div class="col-lg-6 col-md-12 mb-4">
+          <div class="contact-info">
+            <h2 class="contact-title mb-4 text-center">Contact Information</h2>
+            <p class="contact-para">For inquiries regarding the Nobel Prizes, please reach out using the contact form or through the following details:</p>
+            <ul class="list-unstyled">
+              <li><strong>Email:</strong> contact@nobelprize.org</li>
+              <li><strong>Phone:</strong> 123-456-789</li>
+              <li><strong>Address:</strong> Nobel Prize Foundation, Stortorget 6, 103 16 Stockholm, Sweden</li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="col-lg-6 col-md-12">
+          <div class="contact-form">
+            <h2 class="contact-title mb-4 text-center">Get In Touch</h2>
+            <form action="https://formspree.io/f/xeoeqedo" method="POST" >
+              <div class="mb-3">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Your full name" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Your email address" required>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your message" required></textarea>
+              </div>
+                     <button type="submit" class="contact-btn px-5 py-2">Submit</button>
+       
+            </form>
+          </div>
+        </div>
+        
+      <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3619.612869489318!2d67.01426847529714!3d24.87706834459299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sbilal%20arcade%20Faqeeri%20Masjid%20(JAMIA%20MASJID%20FAQEERI)!5e0!3m2!1sen!2s!4v1734257966844!5m2!1sen!2s" width="100%" height="550" class="mt-5 mb-5" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  
+     
+
+
+  </section>
+  <div class="container-fluid position-relative text-white position-fixed " id="fixed-div">
+       
+    <div class="row d-flex justify-content-between align-items-end  position-relative">
+        <div class="col-6  text-start " ><button type="button" class="btn-fixed shadow px-4 py-1 pt-2" id="fixed-btn1"><a class="nav-link" href="mailto:maheen2407d@aptechgdn.net?subject=Query&body=I%20have%20a%20question%20about%20Nobel%20Prize%20History"><h4>Ask Here</h4></a></button></div>
+        <div class="col-6  d-flex justify-content-end align-items-end "><button type="button" class="btn-fixed px-3 py-2 " id="fixed-btn2"><a href="#contact-section"><img src="images & videos/arrow-141-16.png" alt="arrow-icon" width="20px" height="20px" id="arrow-icon" class="mt-2 mb-2 "></a></button></div>
+    </div>
+
+</div>
+    </div> 
+<!-- footer-section -->
+     
+<footer class="nobel-footer" id="contact-section">
+  <div class="container">
+    <div class="row"><div class="col-12 text-center mt-2 mb-4"><img src="images & videos/nobel prize logo.png" alt="nobel prize logo" width="100px"
+      height="100px" id="footer-logo"></div></div>
+
+    <div class="row">
+      <div class="col-md-4 footer-section">
+        <h4 class="footer-title">About Nobel Prizes</h4>
+        <p class="footer-line">The Nobel Prizes honor outstanding contributions to humanity in Physics, Chemistry, Medicine, Literature, and Peace.</p>
+      </div>
+      <div class="col-md-4  footer-section">
+        <h4 class="footer-title text-center">Quick Links</h4>
+        <ul >
+          <li class="text-center"><a href="../history/history.html">History</a></li>
+          <li class="text-center"><a href="../gallery/gallery.html">Gallery</a></li>
+          <li class="text-center"><a href="../notable-lauretes page/notable-lauretes.html">Winners</a></li>
+          <li class="text-center"><a href="../faq/faqs.html">FAQS</a></li>
+    </ul>
+      </div>
+      <div class="col-md-4 footer-section">
+        <h4 class="footer-title text-center">Follow Us</h4>
+        <ul class="social-icons text-center pt-3">
+          <li class="text-center"><a href="https://www.facebook.com/profile.php?id=61559135520840"><i class="fab fa-facebook"></i></a></li>
+          <li class="text-center"><a href="https://wa.me/+923282243863"><i class="fab fa-whatsapp"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-12">
+        <p class="footer-text">&copy; 2024 Nobel Prizes - All Rights Reserved</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="contact.js"></script>
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
