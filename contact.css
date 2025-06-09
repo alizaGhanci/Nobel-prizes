@@ -13,6 +13,21 @@ font-family: serif;
     overflow-x: hidden; 
 
   }
+  .logo {
+  display: block;
+  margin-bottom: 20px;
+  animation: logo 2s ease forwards;
+}
+
+@keyframes logo {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform:  translateX(70px);
+  }
+}
+
    
 /*  header section */ 
 

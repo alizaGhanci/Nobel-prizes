@@ -557,6 +557,21 @@ font-size: clamp(18px, 5vw, 30px);
      
      
      }
+     .logo {
+  display: block;
+  margin-bottom: 20px;
+  animation: logo 2s ease forwards;
+}
+
+@keyframes logo {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform:  translateX(70px);
+  }
+}
+
    
      #winners-img{
  width: 100%;

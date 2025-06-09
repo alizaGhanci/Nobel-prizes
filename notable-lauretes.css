@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box; 
 scroll-behavior: smooth;
@@ -335,13 +336,21 @@ justify-content: end;
 
 
 }
-.logo{
-display: none;
+.logo {
+  display: block;
+  margin-bottom: 20px;
+  animation: logo 2s ease forwards;
 }
-#logoforsm{
-   display: block;
-   margin-bottom: 20px;
+
+@keyframes logo {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform:  translateX(70px);
+  }
 }
+
    .navbar-menu a:hover {
       color: white;
    

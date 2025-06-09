@@ -34,6 +34,7 @@ let navbarLinks = document.querySelectorAll('.navbar a');
 
 
 window.addEventListener('scroll', function () {
+
     const navbarLinks = document.querySelectorAll('.navbar-menu a');
     navbarLinks.forEach(link => {
         if (window.scrollY > 50) {
@@ -43,3 +44,4 @@ window.addEventListener('scroll', function () {
         }
     });
 });
+

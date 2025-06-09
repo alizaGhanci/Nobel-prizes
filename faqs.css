@@ -12,6 +12,20 @@ font-family:serif;
     overflow-x: hidden; 
 
   }
+.logo {
+  display: block;
+  margin-bottom: 20px;
+  animation: logo 2s ease forwards;
+}
+
+@keyframes logo {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform:  translateX(70px);
+  }
+}
 
   #title,#faq-heading,#history-title,#notablelauretes-heading{
         font-size: clamp(20px, 5vw, 70px); }
